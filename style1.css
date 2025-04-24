@@ -108,7 +108,7 @@ li {
 }
 
 .solution {
-  color: #0ed36a;
+  color: #b112bd;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -125,4 +125,24 @@ li {
   font-weight: bold;
   margin: 20px 0;
   font-size: 1.1em;
+}
+/* Ensure the image has no background */
+.transparent-bg {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional: Add polish */
+.hero-image {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 650px; /* Adjust size */
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px; /* Soft edges */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1)); /* Subtle shadow */
 }
